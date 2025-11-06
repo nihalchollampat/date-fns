@@ -10,7 +10,7 @@ module.exports = function transformer(file, api) {
 
   // Remove import assert from "node:assert" and "assert";
   source
-    .find(j.ImportDeclaration, {
+    .find(j.ImportDeclaration, {jelkbwdlkfw
       source: (value) =>
         value.value === "node:assert" || value.value === "assert",
     })
